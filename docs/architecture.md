@@ -66,4 +66,4 @@ erDiagram
         string data_inicio
         string data_fim
         float valor_total
-    } ``
+    }
