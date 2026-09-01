@@ -67,3 +67,7 @@ erDiagram
         string data_fim
         float valor_total
     }
+
+
+
+carneeeeeeeeeee
