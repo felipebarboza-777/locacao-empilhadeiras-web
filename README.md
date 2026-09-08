@@ -14,7 +14,7 @@ O **LocaLift** é uma aplicação web responsiva para a gestão e pré-reserva d
 ---
 
 ## 🔗 Links Úteis
-* **Prototipação no Figma:** [Link para o Protótipo no Figma](https://figma.com/)
+* **Prototipação no Stitch:** https://stitch.withgoogle.com/projects/14434850866941174340
 * **Design System & Arquitetura:** [docs/architecture.md](./docs/architecture.md)
 * **Documentação de Requisitos (PRD):** [docs/prd.md](./docs/prd.md)
 * **Aplicação em Produção (GitHub Pages):** [LocaLift no GitHub Pages](https://felipebarboza-777.github.io/locacao-empilhadeiras-web/)
