@@ -1,11 +1,18 @@
 # Architecture Design Document - LocaLift
 
 ## 1. Tecnologias Utilizadas
-- **Linguagens:** HTML5, CSS3, JavaScript (ES6+ / Vanilla).
-- **Framework CSS:** Bootstrap 5 (Sistema de Grid, Flexbox, tipografia e espaçamentos). *Nota: O framework será importado via CDN.*
-- **Pré-processador:** Sass (SCSS) para modularização e organização do CSS personalizado.
-- **Ferramentas de Qualidade:** ESLint e Prettier para padronização do código.
-- **Gerenciamento de Pacotes:** NPM e Node.js.
+
+| Tecnologia / Biblioteca | Tipo / Fonte | Finalidade |
+| :--- | :--- | :--- |
+| **HTML5 / CSS3** | Nativo | Estrutura e estilização base |
+| **JavaScript (ES6+)** | Nativo | Lógica do lado do cliente |
+| **Bootstrap 5** | CDN | Framework CSS e componentes responsivos |
+| **jQuery** | CDN | Manipulação do DOM e eventos |
+| **jQuery Mask Plugin** | CDN | Máscaras de entrada (CEP, Telefone, CPF) |
+| **ViaCEP API** | API Pública Real | Autocompletado de endereço via CEP |
+| **JSON Server** | NPM (DevDependency) | API Fake local na porta 3000 para testes |
+| **Sass (SCSS)** | NPM (DevDependency) | Pré-processador CSS para estilização |
+| **Node.js / NPM** | Ambiente Local | Gerenciamento de pacotes e dependências |
 
 ## 2. APIs e Contratos
 - **API Pública Real:** [ViaCEP](https://viacep.com.br/)
