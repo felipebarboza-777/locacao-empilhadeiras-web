@@ -13,6 +13,18 @@ O **LocaLift** é uma aplicação web responsiva para a gestão e pré-reserva d
 
 ---
 
+## 🚀 Cinto de Utilidades Tecnológico
+
+### Framework CSS: Bootstrap
+* **Justificativa Visual:** Fornece um grid responsivo robusto (Mobile-First) e componentes visuais modernos (Navbar, Cards, Modals, Forms) que garantem consistência visual e um aspecto industrial limpo para máquinas pesadas.
+* **Justificativa Comercial:** Reduz o tempo de desenvolvimento (*Time-to-Market*), possui documentação madura, alta manutenibilidade e ampla aceitação de mercado.
+
+### API Pública Externa: ViaCEP
+* **Justificativa Visual:** Preenche automaticamente os campos de endereço (Logradouro, Bairro, Cidade, UF) ao digitar o CEP, evitando telas poluídas com campos manuais.
+* **Justificativa Comercial:** Melhora a experiência do usuário (UX) no formulário, reduz a taxa de abandono do cadastro e elimina erros de digitação na entrega logística das empilhadeiras.
+
+---
+
 ## 🔗 Links Úteis
 * **Prototipação no Stitch:** https://stitch.withgoogle.com/projects/14434850866941174340
 * **Design System & Arquitetura:** [docs/architecture.md](./docs/architecture.md)
